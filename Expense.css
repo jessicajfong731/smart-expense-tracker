@@ -1,0 +1,110 @@
+
+/* Style the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    text-align: center;
+    color: #2457a7;
+}
+
+/* Style section headings */
+h2 {
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Style the expense form */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Put each label on its own line */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style the input fields and category dropdown */
+input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style buttons */
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2457a7;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Change button color when the mouse hovers over it */
+button:hover {
+    background-color: #183f7a;
+}
+
+/* Style the expense list */
+#expense-list {
+    padding: 0;
+    list-style: none;
+}
+
+/* Style each expense item */
+#expense-list li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Style delete buttons */
+.delete-button {
+    background-color: #d93025;
+    margin-top: 0;
+}
+
+.delete-button:hover {
+    background-color: #a82018;
+}
+
+/* Style the total spent area */
+#total-spent {
+    background-color: #e3edff;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2457a7;
+}
+
+/* Style error messages */
+#error-message {
+    color: #d93025;
+    font-weight: bold;
+}
