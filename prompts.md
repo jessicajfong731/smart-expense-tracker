@@ -29,6 +29,7 @@
    **Prompt:** "(Please create a CSS Code)"
    **Tool used:** ChatGPT
    **Result:** Styled the page in Expense.css with a card-style form, blue buttons
+
    3.JavaScript
    **Prompt:** "(Please create a CSS Code)"
    **Tool used:** ChatGPT
@@ -36,4 +37,14 @@
 
 ## Improvement Note
 
-(Describe one improvement you made after testing, and why.)
+**Prompt:** "Review my code and suggest one simple improvement."
+
+**Change:** Added a "No expenses yet." message that shows when the expense list is empty.
+
+**Why:** When the list was empty, the page just showed blank space, which looked unfinished and gave the user no feedback. A short message makes it clear that nothing has been added yet.
+
+**How it works:** In `displayExpenses()`, the code checks `expenses.length === 0`. If the array is empty, it creates a list item with the message and adds it to the list. Because `displayExpenses()` rebuilds the list after every add or delete, the message disappears when an expense is added and returns when the last one is deleted. I also call `displayExpenses()` once at the bottom of the file so the message shows when the page first loads.
+
+**How I tested it:** I refreshed the page and saw the message. I added an expense and the message disappeared. I deleted it and the message returned, with the total showing $0.00. Screenshot: 06-empty-state.png
+
+**Problem along the way:** When I pasted the new code, the line breaks were lost, and a `//` comment swallowed the `if` statement, so the message did not appear. I found it using `grep`, split the code onto separate lines, and then it worked.
