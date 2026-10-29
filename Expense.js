@@ -71,7 +71,12 @@ function displayExpenses() {
 
     // Start the total at zero
     let total = 0;
-
+// Show a friendly message when there are no expenses
+if (expenses.length === 0) { 
+    const emptyItem = document.createElement("li");
+    emptyItem.textContent = "No expenses yet.";
+    expenseList.appendChild(emptyItem);
+}
     // Go through each expense in the array
     expenses.forEach(function (expense) {
         // Add this expense to the total
@@ -112,3 +117,4 @@ function displayExpenses() {
     // Show the updated total with two decimal places
     totalSpent.textContent = "$" + total.toFixed(2);
 }
+displayExpenses();

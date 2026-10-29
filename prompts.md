@@ -20,9 +20,19 @@
 
 ## Follow-up Prompts
 
-1. (Add the prompt you used for the HTML)
-2. (Add the prompt you used for the CSS)
-3. (Add the prompt you used for the JavaScript)
+1. HTML
+   **Prompt:** "(Please create a HTML Code)"
+   **Tool used:** ChatGPT
+   **Result:** Generated the HTML Form, list area and total in Expense.html
+
+2. CSS
+   **Prompt:** "(Please create a CSS Code)"
+   **Tool used:** ChatGPT
+   **Result:** Styled the page in Expense.css with a card-style form, blue buttons
+   3.JavaScript
+   **Prompt:** "(Please create a CSS Code)"
+   **Tool used:** ChatGPT
+   **Result:**Adding, total, delete and validation all worked in testing
 
 ## Improvement Note
 

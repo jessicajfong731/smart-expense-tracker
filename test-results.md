@@ -15,3 +15,6 @@
 ![Negative amount error](03-please-enter-greaterthan0.png)
 ![Zero amount error](04-please-enter-greaterthan0.png)
 ![After delete](05-delete-an-item.png)
+![Empty state](06-empty-state.png)
+markdown
+| Empty list | Page load, or delete all items | "No expenses yet." shows, total $0.00 |
