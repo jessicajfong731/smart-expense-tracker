@@ -30,10 +30,10 @@
    **Tool used:** ChatGPT
    **Result:** Styled the page in Expense.css with a card-style form, blue buttons
 
-3.JavaScript
-**Prompt:** "(Please create a CSS Code)"
-**Tool used:** ChatGPT
-**Result:**Adding, total, delete and validation all worked in testing
+3. JavaScript
+   **Prompt:** "(Please create a CSS Code)"
+   **Tool used:** ChatGPT
+   **Result:**Adding, total, delete and validation all worked in testing
 
 ## Improvement Note
 
